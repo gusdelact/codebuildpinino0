@@ -6,8 +6,8 @@ phases:
          - echo comando de instalacion ...
   build:
        commands:
-         - echo Build started on `date`
-         - echo Compiling some code...
+         - echo Build arrancando `date`
+         - echo Compilando un codigo...
          
   post_build:
        commands:
