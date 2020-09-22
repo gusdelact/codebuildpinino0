@@ -9,7 +9,11 @@ phases:
          - echo Ensamblando arrancando `date`
          - echo Compilando un codigo...
          - javac -version
+         - mvn install
          
   post_build:
        commands:
          - echo Ensamblando completado `date`
+artifacts:
+  files:
+    - target/messageUtil-1.0.jar
