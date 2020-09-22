@@ -8,6 +8,7 @@ phases:
        commands:
          - echo Ensamblando arrancando `date`
          - echo Compilando un codigo...
+         - javac -version
          
   post_build:
        commands:
